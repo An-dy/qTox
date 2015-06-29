@@ -108,6 +108,11 @@ Afterwards open a new Terminal, change to a directory of your choice and clone t
 cd /home/user/qTox
 git clone https://github.com/tux3/qTox.git qTox
 ```
+###Updating your clone of the Repository
+```bash
+cd /home/user/qTox/qTox
+git fetch origin && git merge origin/master
+```
 
 The following steps assumes that you cloned the repository at "/home/user/qTox". If you decided to choose another location, replace corresponding parts.
 
